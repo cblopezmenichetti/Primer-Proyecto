@@ -1,4 +1,40 @@
 
+/*Estilos generales*/
+section{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 2rem;
+    font-family: 'Heebo', sans-serif;
+    color: #548235;
+    text-align: center;
+    margin: 10px
+}
+h2{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    color:#70AD47;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+h3{
+    font-size: 1.3rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #808080;
+    text-align: center;
+    margin: 5px;
+}
+p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+
 /*Barra de Navegacion*/
 .navbar{
     padding: 2rem;
@@ -11,56 +47,6 @@
     align-items: center;
 }
 
-/*Perfil*/
-.Perfil{
-    background-color: #f5f6f7;
-    min-height: 450px;
-    text-align: center;
-}
-
-.Seccion-Principal{
-    padding: 3rem;
-}
-
-.Foto-de-perfil{
-    height: 200px;
-    width: 215px;
-    margin: 20px;
-    border-radius: 50%;
-}
-
-/*Estilos generales*/
-section{ 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-h1{
-    font-size: 2.5rem;
-    font-family: 'Heebo', sans-serif;
-    color: #548235;
-    text-align: center;
-}
-h2{
-    font-size: 2rem;
-    color:#70AD47;
-    text-align: center;
-}
-h3{
-    font-size: 1.5rem;
-    font-family: 'Hanken Grotesk', sans-serif;
-    color: #808080;
-    text-align: center;
-}
-p{
-    font-family: 'Hanken Grotesk', sans-serif;
-    text-align: center;
-}
-
-#carrouselHabilidades{
-    background-color: black;
-    color: white;
-}
 
 /*Adaptable Responsivo*/
 
