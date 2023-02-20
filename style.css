@@ -38,7 +38,9 @@ p{
 .navbar{
     padding: 2rem;
     background-color: #D9D9D9;
-    height: 100px;
+}
+.navbar a{
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 .navbar-collapse{
     justify-content: space-between;
@@ -153,18 +155,18 @@ p{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    font-size: 40px;
 }
-.Iconos-contacto a{
+.Iconos-contacto i{
     color:#70AD47;
-    padding: 30px;
+    font-size: 40px;
+    padding: 50px;
     opacity: 1;
     transition: all 0.2s ease-in;
 }
 
-.Iconos-contacto a:hover .Iconos-contacto a{
+.Iconos-contacto i:hover{
     opacity: 0.2;
 }
 
