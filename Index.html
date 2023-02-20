@@ -63,7 +63,7 @@
 
     <main>
 
-       <!--Inicio Heroe section -->
+      <!--Inicio Heroe section -->
 
       <!--Perfil y Objetivos-->
       <section class="Perfil-Objetivos container-fluid">
@@ -77,6 +77,7 @@
 
       <!--Experiencia laboral--> 
       <section class="Experiencia-laboral container-fluid">
+        <i class="bi bi-briefcase" style="font-size: 70px; color:#548235"></i>
         <h1>Experiencia laboral</h1>
           <h2>Analista de Aseguramiento de la Calidad</h2>
             <h3>Coca-Coca ANDINA | Septiembre 2021 - Actualidad</h3>
@@ -100,6 +101,7 @@
 
       <!--Formacion academica-->
       <section class="Formacion-academica container-fluid">
+        <i class="bi bi-bank" style="font-size: 70px; color:#548235"></i>
         <h1>Formación académica</h1>
           <h2>Maestría en Ingeniería Ambiental</h2>
             <h3>Facultad Regional Córdoba, Universidad Tecnológica Nacional | Actualidad</h3>
@@ -111,63 +113,182 @@
               <p>Abanderada de la promoción, reconocimientos académicos varios. Promedio: 9,65</p>
           </div>  
     </section>
-      
+
+    <!-- Fin de Heroe Section -->
+
+    <!-- Cursos y Capacitaciones -->
     <section class="Cursos">
-      <div id="CarruselCursos" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators" style="background-color: black;">
+      <h1 class="Titulo-cursos">Cursos y Capacitaciones</h1>
+      <div id="CarruselCursos" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <div class="carousel-indicators">
           <button type="button" data-bs-target="#CarruselCursos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#CarruselCursos" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#CarruselCursos" data-bs-slide-to="2" aria-label="Slide 3"></button>
          </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner container-fluid">
           <div class="carousel-item active">
-            <h1>Industria Petrolera</h1>
-            <!-- <i class="bi bi-bookmark-heart"></i> -->
+            <h1 class="Titulo-carrusel">Industria Petrolera</h1>
             <ul>
-                <li>Producción y control ambientales en yacimientos de petróleo no convencionales
-                Universidad Nacional de Cuyo, FCAI</li>
-                <li>Seminario sobre Industria Petrolera
-                Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales</li>
-                <li>MOOC Oil & Gas 2019, from exploration to distribution
-                IFP School</li> 
+                <li>Producción y Control Ambientales en Yacimientos de Petróleo No Convencionales </br>
+                <span class="Aclaracion">Universidad Nacional de Cuyo, FCAI</span></li>
+                <li>Seminario sobre Industria Petrolera</br>
+                <span class="Aclaracion">Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales</span></li>
+                <li>MOOC Oil & Gas 2019, from exploration to distribution</br>
+                <span class="Aclaracion">IFP School</span></li> 
              </ul>
           </div>
           <div class="carousel-item">
-            <h1>Gestión</h1>
-            <!-- <i class="bi bi-journal-richtext"></i> -->
+            <h1 class="Titulo-carrusel">Gestión</h1>
             <ul>
-              <li>Curso de Auditor Interno en las normas ISO 9001-2015, ISO 14001-2015 e ISO 45001-2018 BeCert Training (Febrero 2021-online) Horas: 20</li>
-              <li>Gestión de Negociaciones Sostenibles Universidad Siglo 21 (Diciembre 2020-online)</li>
-              <li>Curso de Gestión Ágil de Proyectos Crehana (Octubre 2020-online) Horas: 2</li> 
-              <li>Curso de Auditor Interno de Calidad: ISO 9001-2010 Universidad Tecnológica Nacional, Facultad Regional Córdoba (Junio 2018-Córdoba, Argentina) Horas: 150</li>
+              <li>Curso de Auditor Interno en las normas ISO 9001-2015, ISO 14001-2015 e ISO 45001-2018</br>
+              <span class="Aclaracion">BeCert Training (Febrero 2021-online) Horas: 20</span></li>
+              <li>Gestión de Negociaciones Sostenibles</br>
+              <span class="Aclaracion">Universidad Siglo 21 (Diciembre 2020-online)</span></li>
+              <li>Curso de Gestión Ágil de Proyectos</br>
+              <span class="Aclaracion">Crehana (Octubre 2020-online) Horas: 2</span></li> 
+              <li>Curso de Auditor Interno de Calidad: ISO 9001-2010</br>
+              <span class="Aclaracion">Universidad Tecnológica Nacional, Facultad Regional Córdoba (Junio 2018-Córdoba, Argentina) Horas: 150</span></li>
             </ul>
           </div>
           <div class="carousel-item">
-            <h1>Sustentabilidad</h1>
-            <!-- <i class="bi bi-laptop"></i> -->
+            <h1 class="Titulo-carrusel">Sustentabilidad</h1>
             <ul>
-              <li>Curso sobre Introducción a las Energías Renovables Universidad Católica de Córdoba (Febrero 2021-online) Horas: 6</li>
-              <li>Diplomatura en Derecho Ambiental Universidad Libre del Ambiente (Octubre 2020-online) Horas: 18 </li>
+              <li>Curso sobre Introducción a las Energías Renovables</br>
+              <span class="Aclaracion">Universidad Católica de Córdoba (Febrero 2021-online) Horas: 6</span></li>
+              <li>Diplomatura en Derecho Ambiental</br>
+              <span class="Aclaracion">Universidad Libre del Ambiente (Octubre 2020-online) Horas: 18</span></li>
             </ul>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHabilidades" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#CarruselCursos" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Anterior</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselHabilidades" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#CarruselCursos" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Posterior</span>
         </button>
       </div>
     </section>
 
-
-
-
-
-
-
+    <!-- Habilidades, conocimientos e intereses -->
+    <section class="Habilidades-Conocimientos-Intereses container-fluid">
+      <h1>Habilidades, conocimientos e intereses</h1>
+      <div class="row">
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <h1>Idiomas</h1>
+            <img src="Imagenes/Idiomas.jpg" class="card-img-top" alt="Libros-Idiomas">
+            <div class="card-body d-flex align-items-stretch">
+              <p class="card-text">
+              Inglés</br> 
+              (nivel intermedio)</br>
+              Francés</br>
+              (nivel básico)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <h1>Software</h1>
+            <img src="Imagenes/Software.jpeg" class="card-img-top" alt="Codigo-Software">
+            <div class="card-body">
+              <p class="card-text">
+              Microsoft Office</br>
+              SolidWorks</br>
+              Mathcad</br>
+              Matlab</br>
+              Unisim
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <h1>Soft Skills</h1>
+            <img src="Imagenes/Soft Skills.jpg" class="card-img-top" alt="Personas-SoftSkills">
+            <div class="card-body">
+              <div class="card-text">
+                <table>
+                  <tr>
+                    <td>Responsabilidad</td>
+                    <td>Perseverancia</td>
+                  </tr>
+                  <tr>
+                    <td>Trabajo en equipo</td>
+                    <td>Escucha activa</td>
+                  </tr>
+                  <tr>
+                    <td>Respeto</td>
+                    <td>Empatía</td>
+                  </tr>
+                  <tr>
+                    <td>Honestidad</td>      
+                    <td>Paciencia</td>
+                  </tr>
+                  <tr>
+                    <td>Colaboración</td>
+                    <td>Arbitraje</td>
+                  </tr>
+                  <tr>
+                    <td>Liderazgo</td>
+                    <td>Proactividad</td>
+                  </tr>
+                  <tr>
+                    <td>Resiliencia</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <h1>Intereses</h1>
+            <img src="Imagenes/Intereses.jpg" class="card-img-top" alt="Checklist-Intereses">
+            <div class="card-body">
+              <div class="card-text">
+                <table>
+                  <tr>
+                    <td>Gestión de Proyectos</td>
+                    <td>Gestión Ambiental</td>
+                  </tr>
+                  <tr>
+                    <td>Gestión Energética</td>
+                    <td>Liderazgo</td>
+                  </tr>
+                  <tr>
+                    <td>Procesos</td>
+                    <td>Investigación y Desarrollo</td>
+                  </tr>
+                  <tr>
+                    <td>Energías Renovables</td>
+                    <td>Coaching</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </main>
+    <footer class="container-fluid">
+      <section class="Contacto">
+        <h1>Contacto</h1>
+        <div class="Iconos-contacto">
+          <a href="https://www.linkedin.com/in/candelaria-bel%C3%A9n-lopez-menichetti-98a061147/" target="_blank" rel="noopener norrefer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/cblopezmenichetti?tab=repositories" target="_blank" rel="noopener norrefer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="mailto:cblopezmenichetti@gmail.com" target="_blank" rel="noopener norrefer">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
 </body>
 </html>
